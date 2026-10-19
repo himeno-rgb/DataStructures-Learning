@@ -1,7 +1,8 @@
 #include <iostream>
-#include "circular_doubly_Lists.h"
+#include "circular_doubly_Lists_one.h"
 using namespace std;
 
+// 输出函数：规范化输出样式模板
 template <class T>
 void out(cdchain<T> &c)
 {
@@ -24,6 +25,7 @@ void out(cdchain<T> &c)
     }
 }
 
+// 测试数据导入函数
 void test(int x[], int n)
 {
     cdchain<int> c;
