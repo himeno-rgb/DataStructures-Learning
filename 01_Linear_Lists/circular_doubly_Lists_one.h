@@ -39,7 +39,7 @@ public:
 template <class T>
 void cdchain<T>::Insert(T x) // 插入方式为尾插（无序插入）
 {
-    node<T> *temp = new node(x);
+    node<T> *temp = new node<T>(x);
     if (head->next == head)
     {
         temp->next = head;
